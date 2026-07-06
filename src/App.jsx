@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import HotelFormModal from '../hotelformmodal.jsx';
+import HotelFormModal from './components/HotelFormModal.jsx';
 
 export default function App() {
   const [hotels, setHotels] = useState([]);
